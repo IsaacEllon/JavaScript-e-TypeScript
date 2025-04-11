@@ -4,7 +4,7 @@
 // Não podem conter espaços ou traços.
 // Utilizamos camelCase. 
 // São case-sensitive. 
-// Não podemos modificar o valor d uma constante
+// Não podemos modificar o valor de uma constante
 // Não utilize VAR, utilize CONST.
 
 const primeiroNumero = 5;

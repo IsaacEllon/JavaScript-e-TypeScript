@@ -7,4 +7,3 @@ let nomeAluno; //undefined = não aponta para local nenhum na memória
 const sobreNomeAluno = null; //undefined = não aponta para local nenhum na memória
 const aprovado = true; //boolean - true, false
 
-console.log(typeof nome, nome);

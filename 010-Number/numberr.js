@@ -6,7 +6,7 @@ let num4 = 0.1;
 
 num3 += num4;  // 0.8;
 num3 += num4;  // 0.9;
-//num3 += num4;  // 1.0;
+num3 += num4;  // 1.0;
 num3 = parseFloat(num3.toFixed(2));
 console.log(num3);
 console.log(Number.isInteger(num3))

@@ -19,6 +19,8 @@ alunos.unshift('Isaac');  // Função que adiciona um elemento no começo
 // const removido = alunos.shift(); // Remove do começo
 // console.log(removido)
 
-delete.alunos[1];
+// delete alunos[1];
 
+console.log(alunos.slice(0, 3));
+console.log(alunos.slice(0, -2));
 console.log(alunos);

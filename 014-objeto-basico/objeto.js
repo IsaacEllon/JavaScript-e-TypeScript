@@ -33,9 +33,15 @@
 const pessoa1 = {
     nome: 'Luiz',
     sobrenome: 'Miranda',
-    idade: 25
+    idade: 25,
 
     fala() {
-        console.log('Olá mundo');
+        console.log(`${this.nome} ${this.sobrenome} está falando oi...`);
+        console.log()
+    },
+    incrementaIdade() {
+        this.idade++;
     }
 };
+
+pessoa1.fala();

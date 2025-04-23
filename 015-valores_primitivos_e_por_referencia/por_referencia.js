@@ -1,7 +1,9 @@
 /*
 Primitivos (imutável) - string, number, boolean, undefined, null (bigint, symbol)
+- Valores copiados
 
 Referência (mutável) - array, objeto, function
+- Passados por referência (apontam para o mesmo local na mémoria)
 */
 
 // let c = 'A';

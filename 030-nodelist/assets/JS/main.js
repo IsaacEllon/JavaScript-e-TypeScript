@@ -6,6 +6,6 @@ const backgroundColorBody = estilosBody.backgroundColor;
 console.log(backgroundColorBody);
 
 for (let p of pHtml) {
-    p.style.backgroundColor = backgroundColorBody;
-    p.style.color = '#FFFFFF';
+    p.style.backgroundColor = backgroundColorBody;  // Cor do fundo do parágrafo
+    p.style.color = '#FFFFFF'; // Cor da letra do paragrafo 
 }

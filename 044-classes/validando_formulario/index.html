@@ -9,32 +9,30 @@
 </head>
 
 <body>
-
     <section class="container">
-        <H1> Lorem ipsum dolor sit amet</H1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Quis velit quidem vero eaque vitae error ipsum amet voluptas
-            repellat veritatis praesentium voluptatibus excepturi sunt sit et,
-            assumenda mollitia laboriosam. Consequuntur!
-        </p>
+        <H1>Formulário de cadastro</H1>
+        <ul>
+            <li>Nennhum campo pode estar vazio</li>
+            <li>Usuário só poderá conter letras e/ou números</li>
+            <li>Usuário deverá ter entre 3 a 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
 
-        <form action="">
-            <label for="input-teste-1">Label teste #1</label>
-            <input type="text" id="input-teste-1">
-
-            <label for="input-teste-2">Label teste #2</label>
-            <input type="text" id="input-teste-2">
-
-            <label for="input-teste-3">Label teste #3</label>
-            <input type="text" id="input-teste-3">
-
-            <label for="input-teste-4">Label teste #4</label>
-            <input type="text" id="input-teste-4">
-
-            <button>Enviar</button>
+        <form action="/" method="POST" class="formulario">
+            <label>Nome</label>
+            <input type="text" class="nome">
+            <label>Sobrenome</label>
+            <input type="text" class="sobrenome">
+            <label>CPF</label>
+            <input type="text" class="cpf">
+            <label>Usuário</label>
+            <input type="text" class="usuario">
+            <label>Senha</label>
+            <input type="text" class="senha">
+            <label>Repetir Senha</label>
+            <input type="text" class="repetir-senha">
+            <button type="submit"></button>
         </form>
-
     </section>
 
     <script src="assets/JS/main.js"></script>

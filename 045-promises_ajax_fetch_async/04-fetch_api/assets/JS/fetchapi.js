@@ -23,7 +23,6 @@ async function carregaPagina(el) {
     } catch(e) {
         console.log(e);
     }
-    
 }
 
 function carregaResultado(response) {

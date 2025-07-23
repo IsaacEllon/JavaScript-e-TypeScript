@@ -1,7 +1,9 @@
-// const mod1 = require('./mod1');
-// const {nome, sobrenome, falaNome} = require('./mod1');
-// console.log(falaNome());
+// const Cachorro = require('./Z/mod2');
 
-const { Pessoa } = require('./mod1');
-const p1 = new Pessoa('Luiz');
-console.log(p1);
+// const c1 = new Cachorro('Dog');
+// c1.latir();
+
+const path = require('path');
+
+console.log(__filename); // arquivo atual
+console.log(__dirname); // pasta atual

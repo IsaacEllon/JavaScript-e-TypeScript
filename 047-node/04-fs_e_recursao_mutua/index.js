@@ -22,7 +22,7 @@ async function walk(files, rootDir) {
 
         if (
             !/\.css$/g.test(fileFullPath) && !/\.html$/g.test(fileFullPath)
-        ) continue; // Apenas arquivos CSS
+        ) continue; // Apenas arquivos CSS e HTML
 
         console.log(file, stats.isDirectory());
     }
